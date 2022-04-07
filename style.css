@@ -1,18 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0 5vw 0 5vw;
+  max-width: 1200px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 header {
-  background-color: rgb(19, 17, 39);
+  padding: 0 15px 0 15px;
+  background-color: #2d3142;
   color: white;
 }
 
+.sections {
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+}
 .section__main-article {
-  background-color: lightgray;
+  padding: 20px 15px 20px 15px;
+  background-color: #d8d5db;
+  flex: 2;
 }
 
-.section__nav-menu {
-  background-color: grey;
+.section__sidebar {
+  padding: 20px 15px 20px 15px;
+  background-color: #adacb5;
+  flex: 1;
 }
 
 footer {
-  background-color: rgb(19, 17, 39);
+  background-color: #2d3142;
   color: white;
   text-align: center;
 }
